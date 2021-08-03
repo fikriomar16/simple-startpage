@@ -10,3 +10,4 @@
 * toggle dark/light mode
 
 Enjoy :+1:<br>
+Visit :rocket: [fikriomar16-simple-startpage](https://fikriomar16.github.io/simple-startpage/)
