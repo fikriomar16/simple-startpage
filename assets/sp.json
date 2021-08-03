@@ -1,0 +1,28 @@
+{
+    "fill" : [
+        {"web":"Reddit", "link":"https://www.reddit.com/", "icon":"fab fa-reddit"},
+        {"web":"Spotify","link":"https://open.spotify.com/","icon":"fab fa-spotify"},
+        {"web":"Unsplash","link":"https://unsplash.com/","icon":"fab fa-unsplash"},
+        {"web":"Facebook","link":"https://www.facebook.com/","icon":"fab fa-facebook"},
+        {"web":"Twitter","link":"https://twitter.com/","icon":"fab fa-twitter"},
+        {"web":"Instagram","link":"https://www.instagram.com/","icon":"fab fa-instagram"},
+        {"web":"Youtube","link":"https://www.youtube.com/?gl=US","icon":"fab fa-youtube"},
+        {"web":"Deviantart","link":"https://www.deviantart.com/","icon":"fab fa-deviantart"},
+        {"web":"Github","link":"https://github.com/","icon":"fab fa-github"},
+        {"web":"LinkedIn","link":"https://www.linkedin.com/","icon":"fab fa-linkedin"},
+        {"web":"Paypal","link":"https://www.paypal.com/","icon":"fab fa-paypal"},
+        {"web":"Netflix","link":"https://www.netflix.com/","icon":"fas fa-tv"},
+        {"web":"Disney+","link":"https://www.hotstar.com/","icon":"fas fa-tv"},
+        {"web":"HBO GO","link":"https://www.hbogoasia.id/","icon":"fas fa-tv"},
+        {"web":"Whatsapp","link":"https://web.whatsapp.com/","icon":"fab fa-whatsapp"},
+        {"web":"Flickr","link":"https://flickr.com/","icon":"fab fa-flickr"},
+        {"web":"Twitch","link":"https://www.twitch.tv/","icon":"fab fa-twitch"},
+        {"web":"VK","link":"https://vk.com/","icon":"fab fa-vk"},
+        {"web":"Discord","link":"https://discord.com/login","icon":"fab fa-discord"},
+        {"web":"Gitlab","link":"https://about.gitlab.com/","icon":"fab fa-gitlab"},
+        {"web":"Telegram","link":"https://web.telegram.org/","icon":"fab fa-telegram"},
+        {"web":"Tumblr","link":"https://www.tumblr.com/","icon":"fab fa-tumblr"},
+        {"web":"Laravel 8.x","link":"https://laravel.com/docs/8.x","icon":"fas fa-newspaper"},
+        {"web":"Bootstrap","link":"https://getbootstrap.com/","icon":"fab fa-bootstrap"}
+    ]
+}

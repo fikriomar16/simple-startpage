@@ -1,0 +1,95 @@
+[data-theme="light"] {
+    --primary: #f8f9fa !important;
+    --secondary: #6c757d !important;
+    --tertiary: #212529 !important;
+}
+[data-theme="dark"] {
+    --primary: #212529 !important;
+    --secondary: #f8f9fa !important;
+    --tertiary: #6c757d !important;
+}
+body {
+    background: var(--primary);
+    color: var(--secondary);
+    font-family: 'VT323', monospace;
+}
+/* set transtitions */
+body, #switchtheme, #icon-theme {
+    transition: 0.5s;
+}
+#switchtheme {
+    background-color: var(--primary);
+    color: var(--tertiary);
+
+}
+#switchtheme:checked{
+    background-color: var(--primary);
+    color: var(--secondary);
+}
+#top-display {
+    background: var(--tertiary);
+    color: var(--primary);
+}
+#center-display {
+    background: var(--primary);
+    color: var(--secondary);
+}
+#bottom-display {
+    background: var(--tertiary);
+    color: var(--primary);
+}
+#searchinput, #searchoption, .alert {
+    background: var(--tertiary);
+    color: var(--primary);
+}
+.card {
+    background: var(--primary);
+    color: var(--secondary);
+}
+#shortcuts a, #myFooter a {
+    text-decoration: none;
+}
+#myFooter {
+    background: var(--primary);
+    color: var(--tertiary);
+}
+
+#myFooter .card {
+    background: var(--tertiary);
+    color: var(--primary);
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    #greetings-info {
+        display: none;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    #greetings-info {
+        display: none;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    #greetings-info {
+        display: unset;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    #greetings-info {
+        display: unset;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    #greetings-info {
+        display: unset;
+    }
+}
