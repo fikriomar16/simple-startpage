@@ -29,11 +29,11 @@ $(document).ready(function() {
         var tanggal = month+' '+day+', '+year;
         if (h < 12) {
             h = "0" + h;
-            greetings = 'Good Morning'+', ';
+            greetings = 'Good Morning, ';
         } else if (h > 11 && h < 18) {
-            greetings = 'Good Afternoon'+', ';
+            greetings = 'Good Afternoon, ';
         } else {
-            greetings = 'Good Evening'+', ';
+            greetings = 'Good Evening, ';
         }
         var waktu = hr+':'+m+' '+f;
         $('#greetings-info').text(greetings);

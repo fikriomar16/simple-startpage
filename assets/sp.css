@@ -20,7 +20,6 @@ body, #switchtheme, #icon-theme {
 #switchtheme {
     background-color: var(--primary);
     color: var(--tertiary);
-
 }
 #switchtheme:checked{
     background-color: var(--primary);
@@ -38,13 +37,17 @@ body, #switchtheme, #icon-theme {
     background: var(--tertiary);
     color: var(--primary);
 }
-#searchinput, #searchoption, .alert {
+#searchinput, #searchoption {
     background: var(--tertiary);
     color: var(--primary);
 }
 .card {
     background: var(--primary);
     color: var(--secondary);
+}
+.alert {
+    background: var(--secondary);
+    color: var(--primary);
 }
 #shortcuts a, #myFooter a {
     text-decoration: none;
