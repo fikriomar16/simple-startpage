@@ -74,7 +74,7 @@ $(document).ready(function() {
         $.ajax({
             type: "GET",
             url: url,
-            async: false,
+            async: true,
             dataType: "json",
             success: function(data){
                 var f = data.fill;
